@@ -1,0 +1,51 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/index.html
+# --------------------------------------
+# Node.js / React / Remix
+# --------------------------------------
+node_modules/
+build/
+dist/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Remix specific
+/public/build/
+.prisma/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --------------------------------------
+# Visual Studio / VSCode
+# --------------------------------------
+.vs/
+.vscode/
+*.code-workspace
+
+# --------------------------------------
+# System files
+# --------------------------------------
+.DS_Store
+Thumbs.db
+*.log
+
+# --------------------------------------
+# Others
+# --------------------------------------
+*.tmp
+*.swp
+*.swo
+*.bak
+*.lock
