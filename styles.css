@@ -1,4 +1,7 @@
-﻿/* רקע ווידאו בדף הבית */
+﻿body
+{
+}
+/* רקע ווידאו בדף הבית */
 #bg-video {
     position: fixed;
     top: 0;
@@ -108,3 +111,4 @@ form {
         border: none;
         cursor: pointer;
     }
+}
